@@ -14,7 +14,9 @@ public class Test {
 	public String test(Model model) {
 		String name = "nikki";
 		model.addAttribute("name", name);
+		String name2 = "dd";
 		return "Test";
+		
 	}
 
 
